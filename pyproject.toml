@@ -1,0 +1,18 @@
+[project]
+name = "voice-assistant"
+version = "0.1.0"
+description = "A simple modular voice assistant built with Python."
+authors = [{ name = "Max" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "wikipedia",
+  "pyttsx3",
+  "SpeechRecognition",
+  "PyAudio",
+  "pyjokes",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
